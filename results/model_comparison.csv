@@ -1,0 +1,5 @@
+experiment,n_train,n_test,best_params,cv_r2_mean,cv_r2_std,R2,MAE,RMSE
+descriptors + random_split,656,165,"{""max_depth"": 12, ""min_samples_leaf"": 1, ""n_estimators"": 400}",0.4908663613267851,0.049214348560106896,0.47967330024943167,0.8354068116090916,1.0523689922011257
+descriptors + scaffold_split,650,171,"{""max_depth"": 12, ""min_samples_leaf"": 1, ""n_estimators"": 200}",0.5482667237488742,0.019385907117974333,-0.0014975318680205962,0.8296355227045086,1.0713064294294277
+fingerprints + random_split,656,165,"{""max_depth"": 24, ""min_samples_leaf"": 2, ""n_estimators"": 200}",0.6717967449032154,0.0263492235585507,0.625158322531069,0.6754595499378485,0.8932107140461659
+fingerprints + scaffold_split,650,171,"{""max_depth"": 24, ""min_samples_leaf"": 1, ""n_estimators"": 400}",0.6807984886438163,0.06453602831265276,0.22196505794399457,0.7509915168486848,0.9442528854098314
