@@ -11,7 +11,7 @@ with rigorous **scaffold-based validation** to give an honest estimate of how
 the model performs on genuinely novel chemical structures — not just molecules
 similar to what it was trained on.
 
-🔗 **Live demo:** `streamlit run App.py` (see [Setup](#setup) below)
+🔗 **Live demo:**https://bace1-qsar-predictor.streamlit.app/
 
 ---
 
